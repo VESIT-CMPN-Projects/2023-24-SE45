@@ -1,0 +1,5 @@
+@function grid-width($n) {
+  @return $n * $gw-column + ($n - 1) * $gw-gutter;
+}
+
+
